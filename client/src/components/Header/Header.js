@@ -13,7 +13,7 @@ export const Header = () => {
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                                 <i className="fa fa-bars"></i>
                             </button>
-                            <a className="navbar-brand" href="index.html">carvilla<span></span></a>
+                            <Link className="navbar-brand" to="/">carvilla<span></span></Link>
                         </div>
 
                         <div className="collapse navbar-collapse menu-ui-design" id="navbar-menu">
